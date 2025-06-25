@@ -1,0 +1,8 @@
+# IDEs and editors
+/.vscode
+
+# Misc
+.DS_Store
+Thumbs.db
+README-template.md
+style-guide.md
