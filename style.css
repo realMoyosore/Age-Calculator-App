@@ -20,7 +20,7 @@ body {
 .inputs {
   display: flex;
   gap: 50px;
-  align-items: flex-end;
+  align-items: flex-start;
   position: relative;
 }
 
@@ -40,7 +40,7 @@ label {
 
 input {
   font-size: 1.5rem;
-  padding: 8px 12px;
+  padding: 16px 12px;
   border: 1px solid hsl(0, 0%, 86%);
   border-radius: 8px;
   font-family: inherit;
