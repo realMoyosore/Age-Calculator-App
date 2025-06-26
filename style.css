@@ -20,7 +20,7 @@ body {
 .inputs {
   display: flex;
   gap: 50px;
-  align-items: flex-start;
+  align-items: flex-end;
   position: relative;
 }
 
@@ -67,7 +67,7 @@ input:focus {
   justify-content: center;
   position: absolute;
   right: 0;
-  bottom: -28px;
+  bottom: -70px;
   cursor: pointer;
   transition: background 0.2s;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
