@@ -17,6 +17,10 @@ body {
   width: 100%;
 }
 
+.inputs {
+ position: relative;
+}
+
 .inputs-content {
   display: flex;
   gap: 50px;
