@@ -17,12 +17,12 @@ body {
   width: 100%;
 }
 
-.inputs {
+.inputs-content {
   display: flex;
   gap: 50px;
   align-items: left;
   justify-content: center;
-  position: relative;
+  width: 70%;
 }
 
 .input-group {
@@ -40,11 +40,10 @@ label {
 }
 
 input {
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding: 10px 10px;
   border: 1px solid hsl(0, 0%, 86%);
   border-radius: 8px;
-  font-size: 32px;
   font-weight: 700;
   letter-spacing: 2px;
   color: hsl(0, 0%, 0%);
