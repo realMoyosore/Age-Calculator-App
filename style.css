@@ -24,7 +24,6 @@ body {
 .inputs-content {
   display: flex;
   gap: 50px;
-  align-items: left;
   justify-content: center;
   width: 70%;
 }
@@ -122,6 +121,21 @@ input:focus {
 
   .inputs {
     align-items: center;
+  }
+
+  .inputs-content {
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 25px;
+    margin: 0;
+  }
+
+  input {
+    padding: 15px 10px;
+    padding-right: 0;
+    font-size: 1.2rem;
+    width: 90%;
   }
 
   .results {
