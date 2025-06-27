@@ -112,7 +112,7 @@ input:focus {
   font-weight: 800;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
   .container {
     padding: 1.5rem 1rem 2.5rem 1rem;
     border-radius: 16px 16px 80px 16px;
@@ -149,7 +149,7 @@ input:focus {
   .submit-btn {
     width: 48px;
     height: 48px;
-    right: 150px;
+    right: 125px;
     bottom: -65px;
   }
 }
