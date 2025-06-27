@@ -18,7 +18,7 @@ body {
 }
 
 .inputs {
- position: relative;
+  position: relative;
 }
 
 .inputs-content {
@@ -113,21 +113,29 @@ input:focus {
   font-weight: 800;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .container {
     padding: 1.5rem 1rem 2.5rem 1rem;
     border-radius: 16px 16px 80px 16px;
+    max-width: 300px;
   }
+
+  .inputs {
+    align-items: center;
+  }
+
   .results {
     font-size: 2rem;
   }
+
   .highlight {
     font-size: 2.5rem;
   }
+
   .submit-btn {
     width: 48px;
     height: 48px;
-    right: 0;
-    bottom: -24px;
+    right: 150px;
+    bottom: -65px;
   }
 }
