@@ -62,6 +62,17 @@ input:focus {
   border-color: hsl(259, 100%, 65%);
 }
 
+.input-error {
+  border: 1px solid #ff5757 !important;
+}
+
+.error-message {
+  color: #ff5757;
+  font-size: 0.8em;
+  margin-top: 4px;
+  font-style: italic;
+}
+
 .submit-btn {
   background: hsl(259, 100%, 65%);
   border: none;
