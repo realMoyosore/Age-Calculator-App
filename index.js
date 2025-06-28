@@ -12,7 +12,8 @@ document.getElementById('age-form').addEventListener('submit', function(e) {
 
   if (days < 0) {
     months -= 1;
-    // Get days in previous month
+
+    // To get days in previous month
     const prevMonth = new Date(today.getFullYear(), today.getMonth(), 0);
     days += prevMonth.getDate();
   }
@@ -21,7 +22,7 @@ document.getElementById('age-form').addEventListener('submit', function(e) {
     months += 12;
   }
 
-  // Prevent negative values for invalid future dates
+  // To prevent negative values for invalid future dates
   years = years < 0 ? 0 : years;
   months = months < 0 ? 0 : months;
   days = days < 0 ? 0 : days;
@@ -29,6 +30,8 @@ document.getElementById('age-form').addEventListener('submit', function(e) {
   document.getElementById('years').textContent = years;
   document.getElementById('months').textContent = months;
   document.getElementById('days').textContent = days;
-});
 
+
+  
+});
 
