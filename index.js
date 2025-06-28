@@ -30,3 +30,5 @@ document.getElementById('age-form').addEventListener('submit', function(e) {
   document.getElementById('months').textContent = months;
   document.getElementById('days').textContent = days;
 });
+
+
