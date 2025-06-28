@@ -62,12 +62,12 @@ input:focus {
   border-color: hsl(259, 100%, 65%);
 }
 
-.input-error {
-  border: 1px solid #ff5757 !important;
+input:user-invalid {
+  border: 1px solid #ff0000 !important;
 }
 
 .error-message {
-  color: #ff5757;
+  color: #ff0000;
   font-size: 0.8em;
   margin-top: 4px;
   font-style: italic;
