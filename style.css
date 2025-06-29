@@ -116,7 +116,7 @@ input:user-invalid {
 .results div {
   display: flex;
   align-items: baseline;
-  gap: 0.5rem;
+  gap: 8px;
 }
 
 .highlight {
@@ -126,7 +126,7 @@ input:user-invalid {
 
 @media screen and (max-width: 720px) {
   .container {
-    padding: 1.5rem 1rem 2.5rem 1rem;
+    padding: 24px 16px 40px 16px;
     border-radius: 16px 16px 80px 16px;
     max-width: 300px;
   }
@@ -146,16 +146,16 @@ input:user-invalid {
   input {
     padding: 15px 10px;
     padding-right: 0;
-    font-size: 1.2rem;
+    font-size: 18px;
     width: 90%;
   }
 
   .results {
-    font-size: 2rem;
+    font-size: 32px;
   }
 
   .highlight {
-    font-size: 2.5rem;
+    font-size: 40px;
   }
 
   .submit-btn {
