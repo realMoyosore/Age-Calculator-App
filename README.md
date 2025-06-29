@@ -12,9 +12,6 @@ A simple web application to calculate age based on user input. Built with modern
 
 ### Prerequisites
 
-- Node.js (v14 or higher recommended)
-- npm or yarn
-
 ### Installation
 
 ```bash
