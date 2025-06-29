@@ -69,7 +69,7 @@ input:user-invalid {
 .error-message {
   display: block;
   color: hsl(0, 100%, 67%);
-  font-size: 0.8em;
+  font-size: 12px;
   font-style: italic;
   margin-top: 4px;
 }
@@ -102,12 +102,12 @@ input:user-invalid {
 
 .divider {
   border-bottom: 1px solid hsl(0, 0%, 86%);
-  margin: 2.5rem 0 0 0;
+  margin: 40px 0 0 0;
 }
 
 .results {
-  margin-top: 2.5rem;
-  font-size: 5rem;
+  margin-top: 40px;
+  font-size: 80px;
   font-weight: 800;
   font-style: italic;
   line-height: 1.2;
