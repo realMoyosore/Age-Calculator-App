@@ -41,6 +41,9 @@ age-calculator-app-main/
 └── README.md
 ```
 
+## Screenshot
+![Age calculator Screenshot](/design/image.png)
+
 ## License
 
 This project is licensed under the MIT License.
