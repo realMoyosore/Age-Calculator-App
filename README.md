@@ -17,16 +17,7 @@ A simple web application to calculate age based on user input. Built with modern
 ```bash
 git clone https://github.com/your-username/age-calculator-app-main.git
 cd age-calculator-app-main
-npm install
 ```
-
-### Running the App
-
-```bash
-npm start
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Project Structure
 
@@ -42,6 +33,7 @@ age-calculator-app-main/
 ```
 
 ## Screenshot
+
 ![Age calculator Screenshot](/design/image.png)
 
 ## License
