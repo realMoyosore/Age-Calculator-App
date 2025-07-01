@@ -92,7 +92,7 @@ input:user-invalid {
 }
 
 .submit-btn:hover {
-  background: hsl(259, 100%, 55%);
+  background: hsl(0, 0%, 0%);
 }
 
 .submit-btn svg {
